@@ -3,9 +3,9 @@ package ru.inno.utils;
 import java.sql.*;
 
 public class DBUtils {
-    private static String connectionString = PropertiesManager.getPropertyValue("db.host");
-    private static String user = PropertiesManager.getPropertyValue("db.login");
-    private static String pass = PropertiesManager.getPropertyValue("db.password");
+    private static final String connectionString = PropertiesManager.getPropertyValue("db.host");
+    private static final String user = PropertiesManager.getPropertyValue("db.login");
+    private static final String pass = PropertiesManager.getPropertyValue("db.password");
 
     public static ResultSet selectFromDb(String executeQuery, String... params) {
         try (Connection connection = DriverManager.getConnection(connectionString, user, pass)) {

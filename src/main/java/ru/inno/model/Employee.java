@@ -48,17 +48,4 @@ public class Employee {
                 && Objects.equals(birthdate, employee.birthdate)
                 && Objects.equals(avatar_url, employee.avatar_url);
     }
-
-    public boolean equalsForNewEmployee(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Employee employee = (Employee) o;
-        return Objects.equals(companyId, employee.companyId)
-                && Objects.equals(isActive, employee.isActive)
-                && Objects.equals(firstName, employee.firstName)
-                && Objects.equals(lastName, employee.lastName)
-                && Objects.equals(middleName, employee.middleName)
-                && Objects.equals(phone, employee.phone)
-                && Objects.equals(birthdate, employee.birthdate);
-    }
 }

@@ -4,7 +4,7 @@ import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import ru.inno.model.Company;
 import ru.inno.utils.PropertiesManager;
-import ru.inno.utils.UrnNames;
+import ru.inno.model.UrnNames;
 
 import static io.restassured.RestAssured.given;
 

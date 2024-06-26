@@ -1,4 +1,4 @@
-package ru.inno.utils;
+package ru.inno.model;
 
 public enum UrnNames {
     COMPANY,

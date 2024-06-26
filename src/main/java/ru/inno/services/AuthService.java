@@ -1,12 +1,11 @@
 package ru.inno.services;
 
 import com.alibaba.fastjson.JSON;
-import io.qameta.allure.Step;
 import io.restassured.http.ContentType;
 import ru.inno.model.AuthRequest;
 import ru.inno.model.User;
 import ru.inno.utils.PropertiesManager;
-import ru.inno.utils.UrnNames;
+import ru.inno.model.UrnNames;
 
 import static io.restassured.RestAssured.given;
 
