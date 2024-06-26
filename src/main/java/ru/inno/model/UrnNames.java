@@ -4,5 +4,5 @@ public enum UrnNames {
     COMPANY,
     EMPLOYEE,
     AUTH,
-    DELETE_COMPANY;
+    DELETE_COMPANY
 }
